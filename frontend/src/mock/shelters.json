@@ -1,0 +1,8 @@
+[
+  { "id": "shl_001", "name": "Hoshangabad Community Hall", "location": "Hoshangabad", "capacity": 800, "occupancy": 742, "food": "Adequate", "water": "Adequate", "medical": "Low", "disasterId": "dis_001" },
+  { "id": "shl_002", "name": "Sohagpur Government School", "location": "Hoshangabad", "capacity": 500, "occupancy": 498, "food": "Low", "water": "Adequate", "medical": "Adequate", "disasterId": "dis_001" },
+  { "id": "shl_003", "name": "Itarsi Sports Complex", "location": "Hoshangabad", "capacity": 1200, "occupancy": 615, "food": "Adequate", "water": "Adequate", "medical": "Adequate", "disasterId": "dis_001" },
+  { "id": "shl_004", "name": "Pachmarhi Forest Rest House", "location": "Pachmarhi", "capacity": 200, "occupancy": 188, "food": "Adequate", "water": "Low", "medical": "Adequate", "disasterId": "dis_002" },
+  { "id": "shl_005", "name": "Govindpura Municipal Center", "location": "Bhopal", "capacity": 350, "occupancy": 120, "food": "Adequate", "water": "Adequate", "medical": "Adequate", "disasterId": "dis_003" },
+  { "id": "shl_006", "name": "Sheopur Transit Camp", "location": "Sheopur", "capacity": 400, "occupancy": 96, "food": "Adequate", "water": "Adequate", "medical": "Low", "disasterId": "dis_004" }
+]

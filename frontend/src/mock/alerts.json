@@ -1,0 +1,8 @@
+[
+  { "id": "alt_001", "title": "Water level breach at Tawa embankment", "priority": "Critical", "status": "Open", "disasterId": "dis_001", "createdAt": "2026-08-07T04:12:00Z", "description": "Embankment monitoring sensors report a 40cm overflow near Tawa dam, section 3." },
+  { "id": "alt_002", "title": "Fire line jumped containment ridge", "priority": "Critical", "status": "Acknowledged", "disasterId": "dis_002", "createdAt": "2026-08-07T02:50:00Z", "description": "Wind shift pushed the fire line past the eastern containment trench near Pachmarhi." },
+  { "id": "alt_003", "title": "Oxygen cylinder stock depleted", "priority": "High", "status": "Open", "disasterId": "dis_003", "createdAt": "2026-08-06T19:30:00Z", "description": "Govindpura Health Unit reports zero oxygen cylinders in reserve." },
+  { "id": "alt_004", "title": "Shelter overcapacity: Sohagpur School", "priority": "High", "status": "Acknowledged", "disasterId": "dis_001", "createdAt": "2026-08-06T15:05:00Z", "description": "Occupancy at 99.6% of rated capacity; additional shelter site requested." },
+  { "id": "alt_005", "title": "Access road cleared near Sheopur", "priority": "Low", "status": "Resolved", "disasterId": "dis_004", "createdAt": "2026-08-05T09:00:00Z", "description": "Highway NH-552 reopened to relief convoys after debris clearance." },
+  { "id": "alt_006", "title": "Heatwave advisory lifted", "priority": "Low", "status": "Resolved", "disasterId": "dis_005", "createdAt": "2026-07-30T06:00:00Z", "description": "Cooling monsoon front has brought temperatures below advisory threshold." }
+]

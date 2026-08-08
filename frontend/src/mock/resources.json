@@ -1,0 +1,14 @@
+[
+  { "id": "res_001", "name": "Drinking Water Cans (20L)", "category": "Water", "quantity": 3400, "unit": "cans", "status": "Available", "warehouse": "Bhopal Central Depot", "updatedAt": "2026-08-06T09:00:00Z" },
+  { "id": "res_002", "name": "Emergency Food Kits", "category": "Food", "quantity": 1200, "unit": "kits", "status": "Allocated", "warehouse": "Hoshangabad Relief Camp", "updatedAt": "2026-08-06T14:20:00Z" },
+  { "id": "res_003", "name": "First Aid Kits", "category": "Medical", "quantity": 860, "unit": "kits", "status": "Available", "warehouse": "Indore Medical Store", "updatedAt": "2026-08-05T18:10:00Z" },
+  { "id": "res_004", "name": "Waterproof Tarpaulins", "category": "Shelter Material", "quantity": 2200, "unit": "sheets", "status": "In Transit", "warehouse": "Bhopal Central Depot", "updatedAt": "2026-08-06T07:45:00Z" },
+  { "id": "res_005", "name": "4x4 Rescue Trucks", "category": "Vehicles", "quantity": 18, "unit": "vehicles", "status": "Allocated", "warehouse": "Pachmarhi Field Base", "updatedAt": "2026-08-06T05:30:00Z" },
+  { "id": "res_006", "name": "Portable Generators", "category": "Equipment", "quantity": 64, "unit": "units", "status": "Available", "warehouse": "Bhopal Central Depot", "updatedAt": "2026-08-04T12:00:00Z" },
+  { "id": "res_007", "name": "Oxygen Cylinders", "category": "Medical", "quantity": 210, "unit": "cylinders", "status": "Depleted", "warehouse": "Govindpura Health Unit", "updatedAt": "2026-08-06T16:00:00Z" },
+  { "id": "res_008", "name": "Winter Blankets", "category": "Clothing", "quantity": 5400, "unit": "pieces", "status": "Available", "warehouse": "Jabalpur Relief Camp", "updatedAt": "2026-08-03T10:20:00Z" },
+  { "id": "res_009", "name": "Water Purification Tablets", "category": "Water", "quantity": 48000, "unit": "tablets", "status": "Available", "warehouse": "Hoshangabad Relief Camp", "updatedAt": "2026-08-06T11:00:00Z" },
+  { "id": "res_010", "name": "Chainsaws & Cutting Tools", "category": "Equipment", "quantity": 34, "unit": "units", "status": "Allocated", "warehouse": "Pachmarhi Field Base", "updatedAt": "2026-08-05T08:15:00Z" },
+  { "id": "res_011", "name": "Ambulances", "category": "Vehicles", "quantity": 12, "unit": "vehicles", "status": "Available", "warehouse": "Indore Medical Store", "updatedAt": "2026-08-06T06:00:00Z" },
+  { "id": "res_012", "name": "Ready-to-Eat Meal Packs", "category": "Food", "quantity": 9800, "unit": "packs", "status": "In Transit", "warehouse": "Sheopur Distribution Point", "updatedAt": "2026-08-06T13:40:00Z" }
+]

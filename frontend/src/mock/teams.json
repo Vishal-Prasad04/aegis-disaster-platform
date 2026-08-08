@@ -1,0 +1,8 @@
+[
+  { "id": "tm_001", "name": "Alpha Response Unit", "members": 12, "vehicle": "4x4 Rescue Truck #A1", "status": "Deployed", "assignment": "dis_001", "currentLocation": "Hoshangabad Sector 2", "leader": "Insp. Devendra Chouhan" },
+  { "id": "tm_002", "name": "Bravo Water Rescue", "members": 9, "vehicle": "Boat Unit #B3", "status": "Deployed", "assignment": "dis_001", "currentLocation": "Sohagpur Riverbank", "leader": "Insp. Kavita Nair" },
+  { "id": "tm_003", "name": "Charlie Fire Response", "members": 15, "vehicle": "Fire Tender #C2", "status": "Deployed", "assignment": "dis_002", "currentLocation": "Pachmarhi Ridge Trail", "leader": "Insp. Arjun Verma" },
+  { "id": "tm_004", "name": "Delta Medical Corps", "members": 7, "vehicle": "Ambulance Unit #D4", "status": "On Duty", "assignment": "dis_003", "currentLocation": "Govindpura Health Unit", "leader": "Dr. Priya Sharma" },
+  { "id": "tm_005", "name": "Echo Engineering Team", "members": 10, "vehicle": "Recovery Truck #E1", "status": "Standby", "assignment": "dis_004", "currentLocation": "Sheopur Base Camp", "leader": "Insp. Naveen Patil" },
+  { "id": "tm_006", "name": "Foxtrot Logistics Unit", "members": 6, "vehicle": "Supply Van #F2", "status": "Off Duty", "assignment": null, "currentLocation": "Bhopal Central Depot", "leader": "Insp. Sana Qureshi" }
+]

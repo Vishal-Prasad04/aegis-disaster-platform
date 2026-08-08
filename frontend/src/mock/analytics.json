@@ -1,0 +1,43 @@
+{
+  "responseTimeTrend": [
+    { "date": "Aug 01", "minutes": 52 },
+    { "date": "Aug 02", "minutes": 47 },
+    { "date": "Aug 03", "minutes": 41 },
+    { "date": "Aug 04", "minutes": 38 },
+    { "date": "Aug 05", "minutes": 35 },
+    { "date": "Aug 06", "minutes": 29 },
+    { "date": "Aug 07", "minutes": 26 }
+  ],
+  "resourceUsageByCategory": [
+    { "category": "Water", "allocated": 3400, "available": 5100 },
+    { "category": "Food", "allocated": 1200, "available": 2600 },
+    { "category": "Medical", "allocated": 860, "available": 610 },
+    { "category": "Shelter Material", "allocated": 2200, "available": 900 },
+    { "category": "Vehicles", "allocated": 18, "available": 12 },
+    { "category": "Equipment", "allocated": 64, "available": 34 }
+  ],
+  "shelterOccupancyTrend": [
+    { "date": "Aug 01", "occupancy": 58 },
+    { "date": "Aug 02", "occupancy": 64 },
+    { "date": "Aug 03", "occupancy": 71 },
+    { "date": "Aug 04", "occupancy": 79 },
+    { "date": "Aug 05", "occupancy": 83 },
+    { "date": "Aug 06", "occupancy": 88 },
+    { "date": "Aug 07", "occupancy": 86 }
+  ],
+  "teamPerformance": [
+    { "team": "Alpha", "tasksCompleted": 24, "avgResponseMin": 22 },
+    { "team": "Bravo", "tasksCompleted": 18, "avgResponseMin": 27 },
+    { "team": "Charlie", "tasksCompleted": 31, "avgResponseMin": 19 },
+    { "team": "Delta", "tasksCompleted": 15, "avgResponseMin": 24 },
+    { "team": "Echo", "tasksCompleted": 9, "avgResponseMin": 33 }
+  ],
+  "disasterTrends": [
+    { "month": "Mar", "count": 2 },
+    { "month": "Apr", "count": 3 },
+    { "month": "May", "count": 4 },
+    { "month": "Jun", "count": 6 },
+    { "month": "Jul", "count": 8 },
+    { "month": "Aug", "count": 5 }
+  ]
+}

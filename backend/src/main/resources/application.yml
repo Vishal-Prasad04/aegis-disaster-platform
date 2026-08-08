@@ -1,0 +1,83 @@
+server:
+  # Spring Boot's own default is 8080, but this project already runs the API
+  # on 5000 (see README.md "Local Development Setup" — the frontend's
+  # VITE_API_URL default is wired to match this exact port).
+  port: ${SERVER_PORT:5000}
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: aegis-backend
+
+  # -----------------------------------------------------------------------
+  # DATABASE CONFIGURATION — REPLACE THE PLACEHOLDERS BELOW WITH YOUR OWN
+  # MySQL DETAILS. See README.md "Local Development Setup" > Step 3.
+  #
+  # Two ways to configure this, pick ONE:
+  #
+  #  A) Set a single DB_URL env var with a full JDBC URL, e.g.:
+  #       DB_URL=jdbc:mysql://localhost:3306/aegis_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+  #
+  #  B) Or set DB_HOST / DB_PORT / DB_NAME separately and leave DB_URL unset
+  #     — they're composed into the URL below automatically.
+  #
+  # Either way, also set DB_USERNAME and DB_PASSWORD to your own MySQL
+  # login. Nothing here is a working credential — these are placeholders
+  # on purpose, so the app simply won't connect until you supply your own.
+  # -----------------------------------------------------------------------
+  datasource:
+    url: ${DB_URL:jdbc:mysql://127.0.0.1:3306/aegis_db}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
+
+  jackson:
+    default-property-inclusion: non_null
+    deserialization:
+      # The frontend's edit forms spread the full fetched item (which includes
+      # server-only fields like `id`, `updatedAt`, etc.) back into PUT/PATCH
+      # payloads - see e.g. Resources.jsx/Shelters.jsx/RescueTeams.jsx's
+      # `{ ...values }` pattern. Without this, Jackson's default of rejecting
+      # unrecognized JSON properties would 500 on every single edit save.
+      fail-on-unknown-properties: false
+    serialization:
+      write-dates-as-timestamps: false
+
+app:
+  seed:
+    enabled: ${SEED_ENABLED:true}
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173,http://localhost:3000}
+
+jwt:
+  # LOCAL-DEV-ONLY placeholder — long enough to work immediately so the app
+  # runs on localhost with zero setup, but it is NOT a real secret and must
+  # never be used anywhere reachable by real users. Override via the
+  # JWT_SECRET env var (see README.md) before deploying anywhere public.
+  secret: ${JWT_SECRET:7f9K!mQ2@vL8#xR4$pT6zN1&wC5Aa9}
+  access-token-expiration-ms: ${JWT_ACCESS_EXPIRATION:86400000}
+  refresh-token-expiration-ms: ${JWT_REFRESH_EXPIRATION:604800000}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+    tagsSorter: alpha
+
+logging:
+  level:
+    com.aegis.backend: INFO
+    org.springframework.security: WARN

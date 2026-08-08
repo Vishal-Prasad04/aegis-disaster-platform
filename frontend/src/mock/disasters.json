@@ -1,0 +1,72 @@
+[
+  {
+    "id": "dis_001",
+    "name": "Narmada Basin Flooding",
+    "type": "Flood",
+    "status": "Active",
+    "priority": "Critical",
+    "affectedPopulation": 42500,
+    "location": "Hoshangabad, Madhya Pradesh",
+    "lat": 22.7526,
+    "lng": 77.7274,
+    "requiredResources": ["Water", "Medical", "Shelter Material", "Food"],
+    "startedAt": "2026-08-02T06:30:00Z",
+    "description": "Heavy monsoon rainfall has caused the Narmada river to breach embankments across four blocks."
+  },
+  {
+    "id": "dis_002",
+    "name": "Satpura Range Wildfire",
+    "type": "Wildfire",
+    "status": "Active",
+    "priority": "High",
+    "affectedPopulation": 8200,
+    "location": "Pachmarhi, Madhya Pradesh",
+    "lat": 22.4676,
+    "lng": 78.4336,
+    "requiredResources": ["Vehicles", "Equipment", "Medical"],
+    "startedAt": "2026-08-04T11:15:00Z",
+    "description": "Dry conditions have fueled a fast-moving forest fire threatening two hillside settlements."
+  },
+  {
+    "id": "dis_003",
+    "name": "Bhopal Industrial Gas Leak",
+    "type": "Industrial",
+    "status": "Monitoring",
+    "priority": "Medium",
+    "affectedPopulation": 3100,
+    "location": "Govindpura, Bhopal",
+    "lat": 23.2599,
+    "lng": 77.4126,
+    "requiredResources": ["Medical", "Equipment"],
+    "startedAt": "2026-08-05T20:45:00Z",
+    "description": "Minor chemical leak contained at source; residents within 1km evacuated as a precaution."
+  },
+  {
+    "id": "dis_004",
+    "name": "Chambal Valley Landslide",
+    "type": "Landslide",
+    "status": "Contained",
+    "priority": "Medium",
+    "affectedPopulation": 1450,
+    "location": "Sheopur, Madhya Pradesh",
+    "lat": 25.6672,
+    "lng": 76.6990,
+    "requiredResources": ["Vehicles", "Shelter Material"],
+    "startedAt": "2026-07-29T09:00:00Z",
+    "description": "Slope failure blocked the main highway; rescue teams have cleared access roads."
+  },
+  {
+    "id": "dis_005",
+    "name": "Vindhya Heatwave Advisory",
+    "type": "Heatwave",
+    "status": "Resolved",
+    "priority": "Low",
+    "affectedPopulation": 61000,
+    "location": "Rewa Division, Madhya Pradesh",
+    "lat": 24.5362,
+    "lng": 81.3037,
+    "requiredResources": ["Water", "Medical"],
+    "startedAt": "2026-07-18T05:00:00Z",
+    "description": "Extended heatwave advisory has lifted following a cooling monsoon front."
+  }
+]

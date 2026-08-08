@@ -1,0 +1,42 @@
+[
+  {
+    "id": "usr_001",
+    "name": "Ananya Rao",
+    "email": "admin@aegis.gov",
+    "password": "admin123",
+    "role": "Admin",
+    "avatar": "AR",
+    "phone": "+91 98765 10001",
+    "region": "National HQ"
+  },
+  {
+    "id": "usr_002",
+    "name": "Rohit Malhotra",
+    "email": "coordinator@aegis.gov",
+    "password": "coord123",
+    "role": "Coordinator",
+    "avatar": "RM",
+    "phone": "+91 98765 10002",
+    "region": "Bhopal Division"
+  },
+  {
+    "id": "usr_003",
+    "name": "Kabir Singh",
+    "email": "field@aegis.gov",
+    "password": "field123",
+    "role": "Field Officer",
+    "avatar": "KS",
+    "phone": "+91 98765 10003",
+    "region": "Indore Sector 4"
+  },
+  {
+    "id": "usr_004",
+    "name": "Meera Iyer",
+    "email": "volunteer@aegis.gov",
+    "password": "vol123",
+    "role": "Volunteer",
+    "avatar": "MI",
+    "phone": "+91 98765 10004",
+    "region": "Jabalpur Camp"
+  }
+]
